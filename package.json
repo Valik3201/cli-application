@@ -1,5 +1,5 @@
 {
-  "name": "cli-application",
+  "name": "contacts-node-project",
   "version": "1.0.0",
   "description": "Command-line interface application",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Valik3201/cli-application.git"
+    "url": "git+https://github.com/Valik3201/contacts-node-project.git"
   },
   "author": "Valentyn Chernetskyi <valik3201@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Valik3201/cli-application/issues"
+    "url": "https://github.com/Valik3201/contacts-node-project/issues"
   },
-  "homepage": "https://github.com/Valik3201/cli-application#readme",
+  "homepage": "https://github.com/Valik3201/contacts-node-project#readme",
   "devDependencies": {
     "nodemon": "^3.1.0"
   },
