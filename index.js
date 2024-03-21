@@ -13,6 +13,16 @@ program.parse(process.argv);
 const argv = program.opts();
 
 function invokeAction({ action, id, name, email, phone }) {
+  if (!action) {
+    console.log("Usage: node index.js -a <action> [options]");
+    console.log("Available actions:");
+    console.log("  list    - List all contacts");
+    console.log("  get     - Get contact by ID");
+    console.log("  add     - Add a new contact");
+    console.log("  remove  - Remove contact by ID");
+    return;
+  }
+
   switch (action) {
     case "list":
       contacts.listContacts();
