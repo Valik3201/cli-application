@@ -9,6 +9,13 @@ This project provides a simple command-line interface (CLI) for managing contact
 - Retrieve a contact by ID
 - Remove a contact by ID
 
+## Screenshots
+
+[![screenshot](https://github.com/Valik3201/contacts-node-project/blob/main/assets/screenshot-1.png)](https://github.com/Valik3201/contacts-node-project/blob/main/assets/screenshot-1.png)
+[![screenshot](https://github.com/Valik3201/contacts-node-project/blob/main/assets/screenshot-2.png)](https://github.com/Valik3201/contacts-node-project/blob/main/assets/screenshot-2.png)
+[![screenshot](https://github.com/Valik3201/contacts-node-project/blob/main/assets/screenshot-3.png)](https://github.com/Valik3201/contacts-node-project/blob/main/assets/screenshot-3.png)
+[![screenshot](https://github.com/Valik3201/contacts-node-project/blob/main/assets/screenshot-4.png)](https://github.com/Valik3201/contacts-node-project/blob/main/assets/screenshot-4.png)
+
 ## Installation
 
 1. Clone the repository:
