@@ -4,7 +4,7 @@ const { v4: uuidv4 } = require("uuid");
 
 const contactsPath = path.resolve("./db/contacts.json");
 
-listContacts = async () => {
+const listContacts = async () => {
   try {
     const data = await fs.readFile(contactsPath);
     console.table(JSON.parse(data));
@@ -13,7 +13,7 @@ listContacts = async () => {
   }
 };
 
-getContactById = async (contactId) => {
+const getContactById = async (contactId) => {
   try {
     const data = await fs.readFile(contactsPath);
     const contacts = JSON.parse(data);
@@ -31,7 +31,7 @@ getContactById = async (contactId) => {
   }
 };
 
-removeContact = async (contactId) => {
+const removeContact = async (contactId) => {
   try {
     const data = await fs.readFile(contactsPath);
     const contacts = JSON.parse(data);
@@ -61,7 +61,7 @@ removeContact = async (contactId) => {
   }
 };
 
-addContact = async (name, email, phone) => {
+const addContact = async (name, email, phone) => {
   try {
     const data = await fs.readFile(contactsPath);
     const contacts = JSON.parse(data);
